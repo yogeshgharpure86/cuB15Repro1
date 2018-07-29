@@ -1,0 +1,127 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 68171295133,
+              "status": "passed"
+            },
+            "match": {
+              "location": "FacebookDataTableStepDefs.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "validate fb login page",
+        "description": "",
+        "id": "facebook1-login-validation-with-datatablemap;validate-fb-login-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5007973311,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user is on facebook login Page",
+            "match": {
+              "location": "FacebookDataTableStepDefs.the_user_is_on_facebook_login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 69481656,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"id\",\"selector\":\"email\"}\n  (Session info: chrome\u003d67.0.3396.79)\n  (Driver info: chromedriver\u003d2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform\u003dWindows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.5.2\u0027, revision: \u002710229a9\u0027, time: \u00272017-08-21T17:29:55.15Z\u0027\nSystem info: host: \u0027IN-YGHARPUR-W1\u0027, ip: \u0027192.168.56.1\u0027, os.name: \u0027Windows 8.1\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.3\u0027, java.version: \u00271.8.0_51\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled\u003dfalse, hasTouchScreen\u003dfalse, platform\u003dWIN8_1, acceptSslCerts\u003dfalse, acceptInsecureCerts\u003dfalse, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, setWindowRect\u003dtrue, unexpectedAlertBehaviour\u003d, applicationCacheEnabled\u003dfalse, rotatable\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9), userDataDir\u003dC:\\Users\\ygharpur\\AppData\\Local\\Temp\\scoped_dir28420_12101}, takesHeapSnapshot\u003dtrue, pageLoadStrategy\u003dnormal, unhandledPromptBehavior\u003d, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, version\u003d67.0.3396.79, browserConnectionEnabled\u003dfalse, nativeEvents\u003dtrue, locationContextEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue}]\nSession ID: 8279daf878ff8ce94c33a139a3cc5a3c\n*** Element info: {Using\u003did, value\u003demail}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:414)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:457)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:218)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:406)\r\n\tat com.radical.basic.dataTable.FacebookDataTableStepDefs.he_enters_following_data(FacebookDataTableStepDefs.java:50)\r\n\tat ✽.When he enters following data(DataTableMapsTest.feature:5)\r\n",
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "he enters following data",
+            "match": {
+              "location": "FacebookDataTableStepDefs.he_enters_following_data(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Labels",
+                  "Params",
+                  "Params1"
+                ],
+                "line": 6
+              },
+              {
+                "cells": [
+                  "First Name",
+                  "Anil",
+                  "A"
+                ],
+                "line": 7
+              },
+              {
+                "cells": [
+                  "Last Name",
+                  "Kale",
+                  "B"
+                ],
+                "line": 8
+              },
+              {
+                "cells": [
+                  "Email Address",
+                  "emailID",
+                  "C"
+                ],
+                "line": 9
+              },
+              {
+                "cells": [
+                  "Re-enter Email Address",
+                  "emailID",
+                  "D"
+                ],
+                "line": 10
+              },
+              {
+                "cells": [
+                  "Password",
+                  "Password1",
+                  "E"
+                ],
+                "line": 11
+              },
+              {
+                "cells": [
+                  "Birthdate",
+                  "01",
+                  "F"
+                ],
+                "line": 12
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "check signup should failed",
+            "match": {
+              "location": "FacebookDataTableStepDefs.check_signup_should_failed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Facebook1 login validation with DataTableMap",
+    "description": "As a fb user, I want to enter username and pwd with DataTableMap",
+    "id": "facebook1-login-validation-with-datatablemap",
+    "keyword": "Feature",
+    "uri": "DataTableMapsTest.feature"
+  }
+]
